@@ -1,0 +1,8 @@
+{
+    "name": "Repo de extensiones AnimeFox",
+    "apiVersion": 1,
+    "description": "Fabrica v1 de extensiones .afx (firmadas ECDSA P-256) para la futura app AnimeFox. En espera: sin extensiones hasta que la APK AnimeFox congele su superficie API (ver CONTRATO).",
+    "extensions": [
+        
+    ]
+}

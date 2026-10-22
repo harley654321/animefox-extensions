@@ -1,0 +1,7 @@
+{
+  "id": "ejemplo",
+  "name": "Ejemplo",
+  "version": 1,
+  "apiVersion": 1,
+  "pluginClassName": "com.harley.animefox.afx.ejemplo.PluginEjemplo"
+}
