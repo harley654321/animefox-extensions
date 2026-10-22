@@ -97,7 +97,7 @@ jobs:
           mkdir -p pub/afx
           # Glob: todos los .afx construidos, sin listar modulos.
           # Modo espera: sin .afx no se publica nada (verde).
-          AFXS=$(ls afx/*/build/afx/*.afx 2>/dev/null)
+          AFXS=$(ls afx/*/build/afx/*.afx 2>/dev/null || true)
           if [ -z "$AFXS" ]; then
             echo "fabrica en espera: nada que publicar"
             exit 0
